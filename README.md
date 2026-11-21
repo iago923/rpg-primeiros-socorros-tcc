@@ -29,7 +29,7 @@ Build HTML5 compilado no GameMaker 2024.14.4.268. Foram verificados no navegador
 
 ## Créditos
 
-Desenvolvimento: Iago França. Colaboração/documentação: Guilherme Dominguez Rodrigues, Breno Silva de Carvalho e Gabriel Oliveira Rosa. Referências e créditos completos estão em [`docs/FONTES.md`](docs/FONTES.md).
+Desenvolvimento: Iago Camargo Franca. Colaboração/documentação: Guilherme Dominguez Rodrigues, Breno Silva de Carvalho e Gabriel Oliveira Rosa. Referências e créditos completos estão em [`docs/FONTES.md`](docs/FONTES.md).
 
 O jogo é um recurso educativo e não substitui treinamento certificado, orientação profissional ou atendimento de emergência. As situações são fictícias e o jogo não aciona o SAMU.
 
