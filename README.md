@@ -4,7 +4,9 @@ Jogo educativo em português sobre primeiros socorros em situações do cotidian
 
 ## Jogar
 
-O jogo para navegador fica em [`docs/`](docs/). Depois que o GitHub Pages estiver ativado, o link público do jogo será informado aqui.
+Jogue no navegador: [RPG Primeiros Socorros](https://iago923.github.io/rpg-primeiros-socorros-tcc/).
+
+Codigo-fonte: [repositorio publico no GitHub](https://github.com/iago923/rpg-primeiros-socorros-tcc). A versao web publicada esta em [`docs/`](docs/).
 
 Use as setas ou **WASD** para andar. **E** interage, **Espaço** avança diálogos e atividades, **I** abre a bolsa, **J** mostra as tarefas e **G** abre o guia. Em algumas atividades, use as teclas numéricas indicadas na tela. Também há controles de toque em telas compatíveis.
 
