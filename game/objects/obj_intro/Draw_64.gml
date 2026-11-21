@@ -1,0 +1,3 @@
+var pages=["É segunda-feira. Ana convidou sua turma para um projeto de cuidado e prevenção na escola.","Você vai conhecer os pontos de apoio, estudar e participar de atividades guiadas antes de ajudar nas ocorrências.","Leia no seu ritmo. Na vida real, reconheça a urgência e peça ajuda: a pausa pedagógica não significa que uma emergência pode esperar.","Converse com Ana na secretaria. Você não precisa resolver tudo sozinho: colegas e funcionários fazem parte dessa história."];
+tcc_frame(100,410,1080,240);draw_set_color(make_color_rgb(25,65,53));draw_set_font(global.font_body);
+tcc_draw_text(130,435,"Primeiro dia · "+string(pagina+1)+"/4");tcc_text(130,478,pages[pagina],1000);tcc_draw_text(970,615,"Espaço >");draw_set_font(-1);

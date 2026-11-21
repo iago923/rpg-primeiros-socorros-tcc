@@ -1,0 +1,16 @@
+# Dados locais, arquivos de teste e logs não fazem parte da publicação.
+*.sqlite
+*.sqlite3
+*.db
+*.sav
+*.log
+cache/
+**/cache/
+*.tmp
+*.bak
+*.old
+Build/
+**/Build/
+Thumbs.db
+Desktop.ini
+

@@ -1,0 +1,676 @@
+{
+  "$GMProject": "v1",
+  "%Name": "RPG Primeiros Socorros",
+  "AudioGroups": [
+    {
+      "$GMAudioGroup": "v1",
+      "%Name": "audiogroup_default",
+      "exportDir": "",
+      "name": "audiogroup_default",
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default"
+  },
+  "defaultScriptType": 1,
+  "Folders": [],
+  "ForcedPrefabProjectReferences": [],
+  "IncludedFiles": [
+    {
+      "$GMIncludedFile": "",
+      "%Name": "NunitoSans.ttf",
+      "CopyToMask": -1,
+      "filePath": "datafiles/fontes",
+      "name": "NunitoSans.ttf",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "NunitoSansMedium.ttf",
+      "CopyToMask": -1,
+      "filePath": "datafiles/fontes",
+      "name": "NunitoSansMedium.ttf",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "OFL.txt",
+      "CopyToMask": -1,
+      "filePath": "datafiles/fontes",
+      "name": "OFL.txt",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "schema.sql",
+      "CopyToMask": -1,
+      "filePath": "datafiles/servico",
+      "name": "schema.sql",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "Servidor.exe",
+      "CopyToMask": -1,
+      "filePath": "datafiles/servico",
+      "name": "Servidor.exe",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0"
+    }
+  ],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2024.14.4.222"
+  },
+  "name": "RPG Primeiros Socorros",
+  "resources": [
+    {
+      "id": {
+        "name": "obj_aluno_caido",
+        "path": "objects/obj_aluno_caido/obj_aluno_caido.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_aluno_desmaiado",
+        "path": "objects/obj_aluno_desmaiado/obj_aluno_desmaiado.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_aluno_engasgado",
+        "path": "objects/obj_aluno_engasgado/obj_aluno_engasgado.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_aluno_queimado",
+        "path": "objects/obj_aluno_queimado/obj_aluno_queimado.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_audio",
+        "path": "objects/obj_audio/obj_audio.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_dialogo",
+        "path": "objects/obj_dialogo/obj_dialogo.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_escolha_desmaio",
+        "path": "objects/obj_escolha_desmaio/obj_escolha_desmaio.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_escolha_engasgo",
+        "path": "objects/obj_escolha_engasgo/obj_escolha_engasgo.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_escolha_queda",
+        "path": "objects/obj_escolha_queda/obj_escolha_queda.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_escolha_queimadura",
+        "path": "objects/obj_escolha_queimadura/obj_escolha_queimadura.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_game",
+        "path": "objects/obj_game/obj_game.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_intro",
+        "path": "objects/obj_intro/obj_intro.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_kit",
+        "path": "objects/obj_kit/obj_kit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_livro",
+        "path": "objects/obj_livro/obj_livro.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_mapa_treinamento",
+        "path": "objects/obj_mapa_treinamento/obj_mapa_treinamento.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_menu_fundo",
+        "path": "objects/obj_menu_fundo/obj_menu_fundo.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_menu",
+        "path": "objects/obj_menu/obj_menu.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_minigame_desmaio",
+        "path": "objects/obj_minigame_desmaio/obj_minigame_desmaio.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_minigame_engasgo",
+        "path": "objects/obj_minigame_engasgo/obj_minigame_engasgo.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_minigame_queda",
+        "path": "objects/obj_minigame_queda/obj_minigame_queda.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_minigame_queimadura",
+        "path": "objects/obj_minigame_queimadura/obj_minigame_queimadura.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_npc_ajudante",
+        "path": "objects/obj_npc_ajudante/obj_npc_ajudante.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_player",
+        "path": "objects/obj_player/obj_player.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_profesora",
+        "path": "objects/obj_profesora/obj_profesora.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_room_manager",
+        "path": "objects/obj_room_manager/obj_room_manager.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_spr_hub_escola",
+        "path": "objects/obj_spr_hub_escola/obj_spr_hub_escola.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_spr_room_banheiros",
+        "path": "objects/obj_spr_room_banheiros/obj_spr_room_banheiros.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_spr_room_cantina",
+        "path": "objects/obj_spr_room_cantina/obj_spr_room_cantina.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_spr_room_enfermaria",
+        "path": "objects/obj_spr_room_enfermaria/obj_spr_room_enfermaria.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_spr_room_laboratorio",
+        "path": "objects/obj_spr_room_laboratorio/obj_spr_room_laboratorio.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_spr_room_quadra",
+        "path": "objects/obj_spr_room_quadra/obj_spr_room_quadra.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_spr_room_sala_aula",
+        "path": "objects/obj_spr_room_sala_aula/obj_spr_room_sala_aula.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_spr_room_secretaria",
+        "path": "objects/obj_spr_room_secretaria/obj_spr_room_secretaria.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_tela_final",
+        "path": "objects/obj_tela_final/obj_tela_final.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_transicao_suave",
+        "path": "objects/obj_transicao_suave/obj_transicao_suave.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_treinamento",
+        "path": "objects/obj_treinamento/obj_treinamento.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_ui",
+        "path": "objects/obj_ui/obj_ui.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_banheiros",
+        "path": "rooms/rm_banheiros/rm_banheiros.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_cantina",
+        "path": "rooms/rm_cantina/rm_cantina.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_enfermaria",
+        "path": "rooms/rm_enfermaria/rm_enfermaria.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_hub",
+        "path": "rooms/rm_hub/rm_hub.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_laboratorio",
+        "path": "rooms/rm_laboratorio/rm_laboratorio.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_menu",
+        "path": "rooms/rm_menu/rm_menu.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_quadra",
+        "path": "rooms/rm_quadra/rm_quadra.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_sala_aula",
+        "path": "rooms/rm_sala_aula/rm_sala_aula.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_secretaria",
+        "path": "rooms/rm_secretaria/rm_secretaria.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_treinamento",
+        "path": "rooms/rm_treinamento/rm_treinamento.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_escola",
+        "path": "scripts/scr_escola/scr_escola.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_tcc_camera",
+        "path": "scripts/scr_tcc_camera/scr_tcc_camera.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_tcc_ensino",
+        "path": "scripts/scr_tcc_ensino/scr_tcc_ensino.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_tcc_model",
+        "path": "scripts/scr_tcc_model/scr_tcc_model.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_tcc_ui",
+        "path": "scripts/scr_tcc_ui/scr_tcc_ui.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "shd_mapa_nitido",
+        "path": "shaders/shd_mapa_nitido/shd_mapa_nitido.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_acerto",
+        "path": "sounds/snd_acerto/snd_acerto.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_dialogo",
+        "path": "sounds/snd_dialogo/snd_dialogo.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_erro",
+        "path": "sounds/snd_erro/snd_erro.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_interagir",
+        "path": "sounds/snd_interagir/snd_interagir.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_musica_escola",
+        "path": "sounds/snd_musica_escola/snd_musica_escola.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_vitoria",
+        "path": "sounds/snd_vitoria/snd_vitoria.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_aluno_caido",
+        "path": "sprites/spr_aluno_caido/spr_aluno_caido.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_aluno_desmaiado",
+        "path": "sprites/spr_aluno_desmaiado/spr_aluno_desmaiado.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_aluno_engasgado",
+        "path": "sprites/spr_aluno_engasgado/spr_aluno_engasgado.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_aluno_npc",
+        "path": "sprites/spr_aluno_npc/spr_aluno_npc.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_aluno_queimado",
+        "path": "sprites/spr_aluno_queimado/spr_aluno_queimado.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_cartaz_socorros",
+        "path": "sprites/spr_cartaz_socorros/spr_cartaz_socorros.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_hub_escola",
+        "path": "sprites/spr_hub_escola/spr_hub_escola.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_livro",
+        "path": "sprites/spr_livro/spr_livro.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_mapa_escola",
+        "path": "sprites/spr_mapa_escola/spr_mapa_escola.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_mapa_treinamento",
+        "path": "sprites/spr_mapa_treinamento/spr_mapa_treinamento.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_player_final_baixo",
+        "path": "sprites/spr_player_final_baixo/spr_player_final_baixo.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_player_final_cima",
+        "path": "sprites/spr_player_final_cima/spr_player_final_cima.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_player_final_direita",
+        "path": "sprites/spr_player_final_direita/spr_player_final_direita.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_player_final_esquerda",
+        "path": "sprites/spr_player_final_esquerda/spr_player_final_esquerda.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_player_fonte",
+        "path": "sprites/spr_player_fonte/spr_player_fonte.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_player",
+        "path": "sprites/spr_player/spr_player.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_professora",
+        "path": "sprites/spr_professora/spr_professora.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_room_banheiros",
+        "path": "sprites/spr_room_banheiros/spr_room_banheiros.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_room_cantina",
+        "path": "sprites/spr_room_cantina/spr_room_cantina.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_room_enfermaria",
+        "path": "sprites/spr_room_enfermaria/spr_room_enfermaria.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_room_laboratorio",
+        "path": "sprites/spr_room_laboratorio/spr_room_laboratorio.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_room_quadra",
+        "path": "sprites/spr_room_quadra/spr_room_quadra.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_room_sala_aula",
+        "path": "sprites/spr_room_sala_aula/spr_room_sala_aula.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_room_secretaria",
+        "path": "sprites/spr_room_secretaria/spr_room_secretaria.yy"
+      }
+    }
+  ],
+  "resourceType": "GMProject",
+  "resourceVersion": "2.0",
+  "RoomOrderNodes": [
+    {
+      "roomId": {
+        "name": "rm_menu",
+        "path": "rooms/rm_menu/rm_menu.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_hub",
+        "path": "rooms/rm_hub/rm_hub.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_secretaria",
+        "path": "rooms/rm_secretaria/rm_secretaria.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_treinamento",
+        "path": "rooms/rm_treinamento/rm_treinamento.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_cantina",
+        "path": "rooms/rm_cantina/rm_cantina.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_enfermaria",
+        "path": "rooms/rm_enfermaria/rm_enfermaria.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_quadra",
+        "path": "rooms/rm_quadra/rm_quadra.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_laboratorio",
+        "path": "rooms/rm_laboratorio/rm_laboratorio.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_banheiros",
+        "path": "rooms/rm_banheiros/rm_banheiros.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_sala_aula",
+        "path": "rooms/rm_sala_aula/rm_sala_aula.yy"
+      }
+    }
+  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {
+      "$GMTextureGroup": "",
+      "%Name": "Default",
+      "autocrop": true,
+      "border": 2,
+      "compressFormat": "bz2",
+      "customOptions": "",
+      "directory": "",
+      "groupParent": null,
+      "isScaled": true,
+      "loadType": "default",
+      "mipsToGenerate": 0,
+      "name": "Default",
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    },
+    {
+      "$GMTextureGroup": "",
+      "%Name": "PersonagemFonte",
+      "autocrop": false,
+      "border": 2,
+      "compressFormat": "bz2",
+      "customOptions": "",
+      "directory": "",
+      "groupParent": null,
+      "isScaled": false,
+      "loadType": "default",
+      "mipsToGenerate": 0,
+      "name": "PersonagemFonte",
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ]
+}
